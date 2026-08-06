@@ -1,1 +1,1 @@
-from ._client import MonitorAI
+from _client import MonitorAI
