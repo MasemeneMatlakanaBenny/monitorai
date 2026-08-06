@@ -30,4 +30,5 @@ Homepage = "https://github.com/MasemeneMatlakanaBenny/monitorai"
 Issues = "https://github.com/MasemeneMatlakana/monitorai/issues"
 
 [tool.setuptools]
-packages = { find = { include = ["monitorai", "src/monitorai.*"] } }
+package-dir = {"" = "src"}
+packages = { find = { where = ["src"], include = ["monitorai", "monitorai.*"] } }
