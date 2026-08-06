@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mini-causal" 
-version = "0.4.21"
+name = "monitorai" 
+version = "0.1.0"
 description = "An observability SDK for Monitoring Machines Lab designed for machine learning workflow. Monitor and observe."
 authors = [
     {name = "Masemene Matlakana Benny", email = "bennymasemene46@gmail.com"}
